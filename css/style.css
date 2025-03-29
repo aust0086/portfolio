@@ -1,0 +1,20 @@
+
+ /* all */
+body{
+    color:#EAEAEA;
+}
+
+.bg-custom{
+    background-color: #252541;
+}
+
+.nav-link{
+    color:#EAEAEA
+}
+
+
+/* fotter for all */
+footer{
+    padding:10px;
+    background-color: black;
+}

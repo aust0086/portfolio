@@ -1,3 +1,4 @@
+<!-- Made by Lee Austin -->
 <!doctype html>
 <html lang="en">
 
@@ -5,13 +6,13 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Portfolio</title>
-    <link href="./css/style.css" rel="style css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link href="./css/style.css" rel="stylesheet">
 </head>
 
 <body>
-    <div class="container-index">
+    <div class="container-index bg-custom">
         <header>
             <!-- main title for home page -->
             <h1 class="d-flex justify-content-center">Home</h1>
@@ -21,7 +22,7 @@
                     <div class="collapse navbar-collapse d-flex justify-content-center" id="navbarNav">
                         <ul class="navbar-nav">
                             <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="#home">Home</a>
+                                <a class="nav-link" aria-current="page">Home</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="./about.html">About Us</a>
@@ -34,21 +35,56 @@
                 </div>
             </nav>
             <!-- logo -->
+            <picture class="logo">
+                <source srcset="images/logo-white-1100.png" media="(min-width: 760px)">
 
+                <source srcset="images/logo-white-400.png" media="(min-width: 100px)">
+
+                <img class="orig-img" src="images/logo-white.png" alt="">
+            </picture>
         </header>
+        <!-- main content -->
         <main>
             <!-- "offers" -->
             <section id="#offers">
+                <h2><u>What I Offer</u></h2>
+                <ul class="offers">
+                    <li> Web Devlopment </li>
+                    <li> UI/UX Design </li>
+                    <li> Digital Graphics </li>
+                </ul>
 
             </section>
             <!-- image and paragraph  -->
+            <img src="./images/media.webp" alt=" ">
+            <p>
+                Being in a multi media program Lee learns all kinds of different media. In addition to what they offer
+                here they also do photography and video.
+            </p>
 
         </main>
-        <fotter>
+        <!-- foiter -->
+        <footer>
 
-        </fotter>
+            <img src="./images/logo-white-200.png">
+            <div class="d-flex justify-content-evenly">
+            <ul class="main-nav-footer">
+                <li>Home</li>
+                <li>About</li>
+                <li>Contact</li>
+            </ul>
+            </div>
+            <div class="d-flex justify-content-evenly">
+            <ul class="offers-nav-footer">
+                <li>Web Devlopment</li>
+                <li>UI/UX Design</li>
+                <li>Digital Graphics</li>
+            </ul>
+            </div>
 
+        </footer>
 
+        <!-- Java script for the bootstrap -->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
             integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
             crossorigin="anonymous"></script>

@@ -36,11 +36,11 @@
             </nav>
             <!-- logo -->
             <picture class="logo">
-                <source srcset="images/logo-white-1100.png" media="(min-width: 760px)">
+                <source srcset="images/logo-white-1100.png" media="(min-width:71.875em)">
+                <source srcset="images/logo-white-500.png" media="(min-width:34.375em)">
+                <source srcset="images/logo-white-200.png" media="(min-width:15.625em)">
 
-                <source srcset="images/logo-white-400.png" media="(min-width: 100px)">
-
-                <img class="orig-img" src="images/logo-white.png" alt="">
+                <img class="orig-img" src="images/logo-white.png" alt="Lee's Media logo">
             </picture>
         </header>
         <!-- main content -->
@@ -56,36 +56,49 @@
 
             </section>
             <!-- image and paragraph  -->
-            <img src="./images/media.webp" alt=" ">
+            <picture class="multi-media">
+                <source srcset="./images/multi-media-650.png" media="(min-width:43.75em)">
+                <source srcset="./images/multi-media-450.png" media="(min-width:31.25em )">
+                <source srcset="./images/multi-media-200.png" media="(min-width:15.625em)">
+                <img class="orig-img" src="./images/multi-media.png" alt=" ">
+            </picture>
             <p>
                 Being in a multi media program Lee learns all kinds of different media. In addition to what they offer
                 here they also do photography and video.
             </p>
-
         </main>
         <!-- foiter -->
         <footer>
-
-            <img src="./images/logo-white-200.png">
-            <div class="d-flex justify-content-start">
+            <img src="./images/logo-white-200.png" alt="Lee's Media Logo">
+            <div class="d-flex justify-content-start d-flex justify-content-center">
             <ul class="main-nav-footer mx-5">
-                <li>Home</li>
-                <li>About</li>
-                <li>Contact</li>
+                <li class="nav-item fotter">
+                    <a class="nav-link fotter" aria-current="page" >Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./about.html">About Us</a>
+                </li>
+                <li class="nav-item fotter">
+                    <a class="nav-link fotter" href="./contact.html">Contact</a>
+                </li>
             </ul>
             <ul class="offers-nav-footer">
                 <li>Web Devlopment</li>
                 <li>UI/UX Design</li>
                 <li>Digital Graphics</li>
             </ul>
+            <div class="d-flex">
+                <i class="fa-regular fa-copyright"></i> Copyright Lee's Media 2025
+            </div>
             </div>
 
         </footer>
-
         <!-- Java script for the bootstrap -->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
             integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
             crossorigin="anonymous"></script>
+        <!-- java for icons -->
+        <script src="https://kit.fontawesome.com/0212b9125f.js" crossorigin="anonymous"></script>
     </div>
 </body>
 

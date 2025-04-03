@@ -16,6 +16,7 @@
 
 <body>
   <div class="container-contact bg-custom">
+    <header>
     <h1 class="d-flex justify-content-center text-light animate__animated animate__fadeInDown">Contact Us</h1>
     <nav class="navbar navbar-expand-lg ">
       <div class="container-fluid">
@@ -34,7 +35,37 @@
           </div>
       </div>
   </nav>
-  
+  </header>
+  <main>
+    <h2>
+        My Information
+    </h2>
+    <ul>
+        <div>
+        <li class="bg-light text-black p-2 mb-2 d-table">Lee Austin</li>
+        <li class="bg-light text-black p-2 mb-2 d-table">Alyshaaustin75@gmail.com</li>
+        <li class="bg-light text-black p-2 mb-2 d-table">(705)-896-5495</li>
+        </div>
+        <li><i class="fa-brands fa-instagram"></i><a class="text-light" href="https://www.instagram.com/" target="_blank"> Instagram Account</a></li>
+        <li><i class="fa-brands fa-github"></i><a class="text-light" href="https://github.com/aust0086" target="_blank"> Github Account</a></li>
+
+    </ul>
+    <form>
+        <div class="mb-3">
+          <label for="Email" class="form-label">Email address</label>
+          <input type="email" class="form-control" id="Email" aria-describedby="emailHelp">
+        </div>
+        <div class="mb-3">
+          <label for="Password1" class="form-label">Password</label>
+          <input type="password" class="form-control" id="Password1">
+        </div>
+        <div class="mb-3">
+            <label for="Message" class="form-label">Message</label>
+            <textarea id="Message" class="form-control"></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+  </main>
    <!-- foiter -->
    <footer>
     <img src="./images/logo-white-200.png" alt="Lee's Media Logo">

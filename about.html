@@ -1,3 +1,4 @@
+<!-- Made by Lee Austin -->
 <!doctype html>
 <html lang="en">
 
@@ -5,6 +6,10 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>About Us</title>
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <!-- animation library -->
@@ -15,81 +20,104 @@
 <body>
     <!-- div for the wole page -->
     <div class="container-about bg-custom">
-        <header>
-            <h1 class="d-flex justify-content-center text-light animate__animated animate__fadeInDown">About Us</h1>
+        <header class="p-2">
+            <div role="heading" aria-level="1" class="fs-1 text d-flex justify-content-center animate__animated animate__fadeInDown">About Us</div>
+            <!-- nav -->
             <nav class="navbar navbar-expand-lg ">
                 <div class="container-fluid">
                     <div class="collapse navbar-collapse d-flex justify-content-center" id="navbarNav">
                         <ul class="navbar-nav">
                             <li class="nav-item">
-                                <a class="nav-link" href="./index.html">Home</a>
+                                <a class="nav-link fs-3 border border-2 border-black mx-2" href="./index.html">Home</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" aria-current="page">About Us</a>
+                                <a class="nav-link fs-3 border border-2 border-black mx-2" aria-current="page">About Us</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="./contact.html">Contact</a>
+                                <a class="nav-link fs-3 border border-2 border-black mx-2" href="./contact.html">Contact</a>
                             </li>
                         </ul>
                     </div>
                 </div>
             </nav>
         </header>
-        <main>
+        <main class="p-2">
             <div class="container text-center">
-                <!-- card 1 -->
-                <div class="card row" style="width:100%; background-color: #252541;">
-                    <picture class="col-md-12 col-6-centerd">
-                        <source srcset="./images/lee-austin-650.png" media="(min-width:70.625em)">
-                        <source srcset="./images/lee-austin-400.png" media="(min-width:25.625em)">
-                        <img class="orig-img" src="./images/lee-austin-400.png" alt="Lee Austin">
-                    </picture>
-                    <div class="card-body text-light col-md-12 col-6-centerd">
-                        <p class="card-text">Lee is a second semester student in Algonquin College’s Interactive
-                            Media Design program. They are hoping to focus their studies on web development and use what
-                            they learn in the other courses to elevate their web pages.</p>
+                <!-- cards -->
+                <div class="row">
+                    <!--card 1-->
+                    <div class="col-12 col-md-6 pb-3">
+                        <div class="card" style="background-color: #252541;">
+                            <div class="d-flex justify-content-center">
+                                <picture>
+                                    <source srcset="./images/lee-austin-650.png" media="(min-width:70.625em)">
+                                    <source srcset="./images/lee-austin-400.png" media="(min-width:25.625em)">
+                                    <img class="orig-img" src="./images/lee-austin-400.png" alt="Lee Austin">
+                                </picture>
+                            </div>
+                            <div class="card-body text-light col-12-centerd col-md-6-centerd">
+                                <p class="card-text">Lee is a second semester student in Algonquin College’s Interactive
+                                    Media Design program. They are hoping to focus their studies on web development and
+                                    use
+                                    what
+                                    they learn in the other courses to elevate their web pages.</p>
+                            </div>
+                        </div>
                     </div>
-                </div>
-                <!-- card 2 -->
-                <div class="card row" style="width:100%; background-color: #252541;">
-                    <picture class="col-md-12 col-6-centerd">
-                        <source srcset="./images/picture-of-me-650.png" media="(min-width:70.625em)">
-                        <source srcset="./images/picture-of-me-400.png" media="(min-width:25.625em)">
-                        <img class="orig-img" src="./images/picture-of-me.png" alt="Lee Austin">
-                    </picture>
-                    <div class="card-body text-light col-md-12 col-6-centerd">
-                        <p class="card-text">Lee went into this program not quite knowing what they wanted to focus on
-                            but after the first month they knew that they wanted to focus their studies on web
-                            development. They also have a passion for photography.</p>
+                    <!-- card 2 -->
+                    <div class="col-12 col-md-6 pb-3">
+                        <div class="card" style="background-color: #252541;">
+                            <div class="d-flex justify-content-center">
+                                <picture>
+                                    <source srcset="./images/picture-of-me-650.png" media="(min-width:70.625em)">
+                                    <source srcset="./images/picture-of-me-400.png" media="(min-width:25.625em)">
+                                    <img class="orig-img" src="./images/picture-of-me.png" alt="Lee Austin">
+                                </picture>
+                            </div>
+                            <div class="card-body text-light col-12-centerd col-md-6-centerd">
+                                <p class="card-text">Lee went into this program not quite knowing what they wanted to
+                                    focus
+                                    on
+                                    but after the first month they knew that they wanted to focus their studies on web
+                                    development. They also have a passion for photography.</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
-
-
         </main>
         <!-- footer -->
         <footer>
             <img src="./images/logo-white-200.png" alt="Lee's Media Logo">
             <div class="d-flex justify-content-start d-flex justify-content-center">
-                <ul class="main-nav-footer mx-5">
-                    <li class="nav-item">
-                        <a class="nav-link" href="./index.html">Home</a>
+                <!-- main nav -->
+                <ul class="main-nav-footer mx-5 navbar-nav">
+                    <li class="nav-item fotter">
+                        <a class="nav-link fotter fs-4" href="./index.html">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" aria-current="page">About Us</a>
+                        <a class="nav-link fotter fs-4" aria-current="page">About Us</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="./contact.html">Contact</a>
+                    <li class="nav-item fotter">
+                        <a class="nav-link fotter fs-4" href="./contact.html">Contact</a>
                     </li>
                 </ul>
-                <ul class="offers-nav-footer">
-                    <li>Web Devlopment</li>
-                    <li>UI/UX Design</li>
-                    <li>Digital Graphics</li>
+                <!-- secondary nav -->
+                <ul class="main-nav-footer mx-5 navbar-nav">
+                    <li class="nav-item fotter">
+                        <a class="nav-link fotter fs-4" href="./web.html" target="_blank">Web Devlopemnt</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fotter fs-4" href="./ux.html" target="_blank">UI/UX Design</a>
+                    </li>
+                    <li class="nav-item fotter">
+                        <a class="nav-link fotter fs-4" href="./graphic.html" target="_blank">Digital Graphics</a>
+                    </li>
                 </ul>
-                <div class="d-flex">
-                    <i class="fa-regular fa-copyright"></i> Copyright Lee's Media 2025
-                </div>
+            </div>
+            <br>
+            <div class="d-flex justify-content-center fs-4">
+                <i class="fa-regular fa-copyright fs-4"></i> Copyright Lee's Media 2025
             </div>
 
         </footer>

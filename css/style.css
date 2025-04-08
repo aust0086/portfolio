@@ -1,22 +1,39 @@
+/* all */
 
- /* all */
- 
-body{
-    color:#EAEAEA;
+body {
+    color: #EAEAEA;
     font-family: "playfair";
 }
 
-.bg-custom{
+.bg-custom {
     background-color: #252541;
 }
 
-.nav-link{
-    color:#EAEAEA
+.nav-link {
+    color: #EAEAEA
 }
 
 
 /* fotter for all */
-footer{
-    padding:10px;
+footer {
+    padding: 10px;
+    background-color: black;
+}
+
+/* skip links */
+.skip-link li {
+    list-style-type: none;
+}
+
+.skip-link a {
+    position: absolute;
+    top: -2rem;
+    background-color: black;
+    color: aliceblue;
+}
+
+.skip-link a:focus {
+    top: 0;
+    color: white;
     background-color: black;
 }
